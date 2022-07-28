@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Etoile Dance Company</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="enroll.html">Enroll</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a class="signout" href="signout.html">Sign out</a></li>
+            <li><a class="signin" href="signin.html">Sign in /</a></li>
+        </ul>
+    </nav>
+
+    <!-- Enroll Form -->
+    <div class="enroll">
+        <div class="enrollheader">
+            <h1>ENROLL NOW!</h1>
+            <p>Please fill out the form below and we will contact you within 3-5 
+                business days.We're excited for you to join us!<br>
+                If you are already enrolled with us, please <a href="signin.html">sign in</a> 
+                to sign up for classes.</p>
+        </div>
+        <div class="enroll-form">
+            <form action="mailto:marlisa@rebaum.com">
+                <label for="fname">First Name:</label><br>
+                <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+                <br>
+                <br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+                <br>
+                <br>
+                <label for="birthdate">Birthdate:</label><br>
+                <input type="date" name="bday" id="bday">
+                <br>
+                <br>
+                <label for="phone">Your phone number:</label><br>
+                <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                <br>
+                <br>
+                <label for="email">Your email address:</label><br>
+                <input type="text" name="email" id="email" placeholder="Enter E-mail Address">
+                <br>
+                <br>
+                <label for="class-type">What class(es) are you interested in?</label><br>
+                <select name="class" id="class-interest">
+                    <option value="select">Select one</option>
+                    <option value="ballet">Ballet</option>
+                    <option value="children">Children's Dance</option>
+                    <option value="contemporary">Contemporary</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="modern">Modern</option>
+                    <option value="show">Show Dance</option>
+                    <option value="yoga">Yoga</option>
+                </select>
+                <select name="class" id="class-interest">
+                    <option value="select">Select one (optional)</option>
+                    <option value="ballet">Ballet</option>
+                    <option value="children">Children's Dance</option>
+                    <option value="contemporary">Contemporary</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="modern">Modern</option>
+                    <option value="show">Show Dance</option>
+                    <option value="yoga">Yoga</option>
+                </select>
+                <select name="class" id="class-interest">
+                    <option value="select">Select one (optional)</option>
+                    <option value="ballet">Ballet</option>
+                    <option value="children">Children's Dance</option>
+                    <option value="contemporary">Contemporary</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="modern">Modern</option>
+                    <option value="show">Show Dance</option>
+                    <option value="yoga">Yoga</option>
+                </select>
+                <br>
+                <br>
+                <label for="experience">Do you have dance experience?</label><br>
+                <select name="experience" id="experience">
+                    <option value="Select one">Select one</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br>
+                <br>
+                <label for="years-experience">If yes, how many years of experience do you have?</label><br>
+                <select name="experience" id="years-experience">
+                    <option value="none">No experience</option>
+                    <option value="less-1"> < 1 year</option>
+                    <option value="1-2">1-2 years</option>
+                    <option value="2-3">2-3 years</option>
+                    <option value="3-4">3-4 years</option>
+                    <option value="4-5">4-5 years</option>
+                    <option value="5+">5+ years</option>
+                </select>
+                <br>
+                <br>
+                <label for="comments">Is there anything else you want us to know?</label><br>
+                <input type="text" name="comments" id="comments">
+                <br>
+                <br>
+                <label for="survery">How did you hear about us?</label><br>
+                <select name="survery" id="survery">
+                    <option value="select-one">Select one</option>
+                    <option value="friend">Friend</option>
+                    <option value="family">Family memeber</option>
+                    <option value="insta">Instagram</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="tiktok">TikTok</option>
+                    <option value="websearch">Web Search</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <p>Thank you, we will be in touch soon!</p>
+                <br>
+                <button class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="bottom" id="contact">
+            <div class="map">
+                <img src="static/map.JPG" alt="Location of Etoile Dance Company shown on the map of Portland, Oregon" class="mapimg">
+            </div>
+            <div class="footinfo">
+                <div class="foothead">Contact Us</div>
+                <div class="info">
+                    <div>
+                        <p class="tiny"><ion-icon name="location-outline"></ion-icon> Portland, OR 97221</p>
+                    </div>
+                    <div>
+                        <p class="tiny"><ion-icon name="mail-outline"></ion-icon> etoile.dance@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="tiny"><ion-icon name="call-outline"></ion-icon> (503) 554-0212</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="footsocial">
+                <div class="foothead">Follow Us</div>
+                <div class="social-media">
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-facebook"></ion-icon> Facebook</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-instagram"></ion-icon> Instagram</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-tiktok"></ion-icon> TikTok</p></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="copyright">
+                &copy Marlisa Rebaum 2022
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

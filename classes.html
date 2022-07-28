@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Etoile Dance Company</title>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="enroll.html">Enroll</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a class="signout" href="signout.html">Sign out</a></li>
+            <li><a class="signin" href="signin.html">Sign in /</a></li>
+        </ul>
+    </nav>
+
+    <!-- Class Section -->
+    <Section id="classes">
+        <div>
+            <div class="container">
+                <img src="static/class.jpg" alt="Picture of children's feet wearing ballet slippers" class="aboutimg">
+                <div class="about-header">Classes<hr></div>
+            </div>
+        </div>
+
+        <div class="wrap-container">
+            <div class="wrapper">
+                <div class="box">
+                    <img src="static/dance-styles/children.jpg" alt="Picture of children's feet wearing ballet slippers" class="danceimg">
+                    <h2 class="box-header">Children's Dance</h2>
+                    <h4 class="box-subheader">(ages 2-4)</h4>
+                    <p class="box-text">Children's dance is the perfect start 
+                        into the world of dance for younglings. Children will 
+                        begin to learn how to move to music and will learn 
+                        simple step combinations through the use of games.</p>       
+                </div>
+                <div class="box">
+                    <img src="static/dance-styles/ballet.jpg" alt="Picture of ballerinas wearing white tutus" class="danceimg">
+                    <h2 class="box-header">Ballet</h2>
+                    <h4 class="box-subheader">(ages 4+)</h4>
+                    <p class="box-text">Our ballet classes use traditional 
+                        classical ballet steps and classical music. We have 7 
+                        different levels of classes that students work their 
+                        way through according to age and skill level.</p>
+                </div>
+                <div class="box">
+                    <img src="static/dance-styles/jazz.jpg" alt="Picture of a group of dancer performing a routine on stage" class="danceimg">
+                    <h2 class="box-header">Jazz</h2>
+                    <h4 class="box-subheader">(ages 4+)</h4>
+                    <p class="box-text">Jazz dance combines African and 
+                        European dance styles to create a style that combines 
+                        sharp and fluid movements. Our jazz classes are full of 
+                        funk and are divided up according to participants' ages.</p>
+                </div> 
+                <div class="box">
+                    <img src="static/dance-styles/modern.jpg" alt="Silhouette image of three dancer on stage with a red background" class="danceimg">
+                    <h2 class="box-header">Modern</h2>
+                    <h4 class="box-subheader">(ages 8+)</h4>
+                    <p class="box-text">Modern is a form of dance that includes
+                         fluid free style, often to unique instrumental music. 
+                         Modern is a great style for dancers who have taken jazz 
+                         and ballet classes and are looking for more of a 
+                         combination of the two.</p>
+                </div>
+                <div class="box">
+                    <img src="static/dance-styles/contemporary.jpg" alt="Four dancers in flowy dresses performing a routine on stage" class="danceimg">
+                    <h2 class="box-header">Contemporary</h2>
+                    <h4 class="box-subheader">(ages 8+)</h4>
+                    <p class="box-text">Contemporary dance is a fluid form of 
+                        dance that focuses heavily on expression. Slower, 
+                        modern songs are often used for contemporary dance. 
+                        Contemporary is a great style for those who love ballet 
+                        but would like to try a more free and fluid form of dance.</p>
+                </div>
+                <div class="box">
+                    <img src="static/dance-styles/hip hop.jpg" alt="Hip hop dancer performing a one-handed handstand" class="danceimg">
+                    <h2 class="box-header">Hip Hop</h2>
+                    <h4 class="box-subheader">(ages 8+)</h4>
+                    <p class="box-text">Hip hop is a range of street dance 
+                        styles primarily performed to hip hop music. It is 
+                        vibrant and full of freestyle.</p>
+                </div>   
+                <div class="box">
+                    <img src="static/dance-styles/show-dance.jpg" alt="Group of actors performing a musical on stage" class="danceimg">
+                    <h2 class="box-header">Show-Dance</h2>
+                    <h4 class="box-subheader">(ages 13+)</h4>
+                    <p class="box-text">Show dance is a form of dance that 
+                        combines a form of stunts and dance moves to create an 
+                        entertaining show for the audience. In this class, you 
+                        will learn numerous acrobatic moves, including aerials 
+                        and flips. Intermediate dance experience is required 
+                        for this class.</p>
+                </div>
+                <div class="box">
+                    <img src="static/dance-styles/yoga.jpg" alt="Picture of woman doing a bridge with one leg raised into the hair" class="danceimg">
+                    <h2 class="box-header">Yoga</h2>
+                    <h4 class="box-subheader">(ages 16+)</h4>
+                    <p class="box-text">Yoga is offered for those looking for 
+                        some extra stretching or relaxation at the end of a 
+                        busy day. Our yoga classes focus on stretching and flows. </p>
+                </div>
+                <div class="box">
+                    <img src="static/dance-styles/stretch.jpg" alt="Picture of woman stretching" class="danceimg">
+                    <h2 class="box-header">Stretching</h2>
+                    <h4 class="box-subheader">(ages 10+)</h4>
+                    <p class="box-text">Our stretching classes are for anyone 
+                        who wants to improve their flexibility. We highly 
+                        recommend this class for our intermediate to advanced 
+                        dancers. </p>
+                </div>
+            </div>    
+        </div>     
+    </Section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <div class="sidebar">
+            <div class="date">
+                <h4 class="date-header">Select a class date:</h4>
+                <input type="date" id="date" name="date"
+                    value="7/26/2022"
+                    min="7/20/2022" max="7/26/2023">
+            </div>
+        
+            <div class="filter">
+                <h4>Filter classes by:</h4>
+                <form action="/action_page.php">
+                    <label for="type">Class Type:</label><br>
+                    <select name="type" id="type">
+                        <option value="any">Any type</option>
+                        <option value="ballet">Ballet</option>
+                        <option value="children">Children's Dance</option>
+                        <option value="contemporary">Contemporary</option>
+                        <option value="hiphop">Hip Hop</option>
+                        <option value="jazz">Jazz</option>
+                        <option value="modern">Modern</option>
+                        <option value="show">Show Dance</option>
+                        <option value="yoga">Yoga</option>
+                    </select>
+                    <br>
+                    <label for="instructor">Instructor:</label><br>
+                    <select name="instructor" id="instructor">
+                        <option value="any">Any instructor</option>
+                        <option value="amari">Amari</option>
+                        <option value="emily">Emily</option>
+                        <option value="gabby">Gabby</option>
+                        <option value="james">James</option>
+                        <option value="kenji">Kenji</option>
+                        <option value="sebastian">Sebastian</option>
+                        <option value="silvia">Silvia</option>
+                        <option value="tamara">Tamara</option>
+                        <option value="tyler">Tyler</option>
+                    </select>
+                    <br>
+                    <label for="length">Class length:</label><br>
+                    <select name="length" id="length">
+                        <option value="any">Any length</option>
+                        <option value="60">60 minutes</option>
+                        <option value="75">75 minutes</option>
+                        <option value="90">90 minutes</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div class="weekly-schedule">   
+            <div class="weekly">
+                <div class="monday">
+                    <h2>Monday</h2>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Class</th>
+                            <th>Class Time</th>
+                            <th>Instructor</th>
+                            <th>Ages</th>
+                            <th>Studio</th>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Children's Dance</td>
+                            <td>10:00-11:00am</td>
+                            <td>Emily</td>
+                            <td>2-4</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet I</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Gabby</td>
+                            <td>4-6</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Jazz IV</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Amari</td>
+                            <td>17+</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Show Dance I</td>
+                            <td>5:00-6:00pm</td>
+                            <td>James</td>
+                            <td>13-14</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Contemporary II</td>
+                            <td>6:00-7:00pm</td>
+                            <td>Tamara</td>
+                            <td>11-13</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Yoga Flow</td>
+                            <td>7:00-8:00pm</td>
+                            <td>Gabby</td>
+                            <td>16+</td>
+                            <td>studio A</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tuesday">
+                    <h2>Tuesday</h2>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Class</th>
+                            <th>Class Time</th>
+                            <th>Instructor</th>
+                            <th>Ages</th>
+                            <th>Studio</th>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Modern I</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Kenji</td>
+                            <td>8-10</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet II</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Silvia</td>
+                            <td>7-9</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Hip Hop III</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Kenji</td>
+                            <td>14-16</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Contemporary I</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Gabby</td>
+                            <td>8-10</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Show Dance III</td>
+                            <td>6:00-7:00pm</td>
+                            <td>Tyler</td>
+                            <td>17+</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Jazz III</td>
+                            <td>6:00-7:00pm</td>
+                            <td>Tamara</td>
+                            <td>15-16</td>
+                            <td>studio B</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="wednesday">
+                    <h2>Wednesday</h2>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Class</th>
+                            <th>Class Time</th>
+                            <th>Instructor</th>
+                            <th>Ages</th>
+                            <th>Studio</th>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Modern II</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Kenji</td>
+                            <td>11-13</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Preemie Jazz</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Emily</td>
+                            <td>4-6</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet VI</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Sebastian</td>
+                            <td>16-17</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Balllet V</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Kenji</td>
+                            <td>14-15</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Contemporary III</td>
+                            <td>6:00-7:00pm</td>
+                            <td>Tamara</td>
+                            <td>14-16</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Yoga Flow</td>
+                            <td>7:00-8:00pm</td>
+                            <td>Gabby</td>
+                            <td>16+</td>
+                            <td>studio A</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="thursday">
+                    <h2>Thursday</h2>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Class</th>
+                            <th>Class Time</th>
+                            <th>Instructor</th>
+                            <th>Ages</th>
+                            <th>Studio</th>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Children's Dance</td>
+                            <td>10:00-11:00am</td>
+                            <td>Emily</td>
+                            <td>2-4</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet II</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Sebastian</td>
+                            <td>7-9</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet I</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Gabby</td>
+                            <td>4-6</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Show Dance II</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Tyler</td>
+                            <td>15-16</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Jazz I</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Tamara</td>
+                            <td>10-12</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet VII</td>
+                            <td>6:00-7:00pm</td>
+                            <td>Sebastian</td>
+                            <td>18+</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Hip Hop II</td>
+                            <td>6:00-7:00pm</td>
+                            <td>James</td>
+                            <td>11-13</td>
+                            <td>studio B</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="friday">
+                    <h2>Friday</h2>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Class</th>
+                            <th>Class Time</th>
+                            <th>Instructor</th>
+                            <th>Ages</th>
+                            <th>Studio</th>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Youth Jazz</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Amari</td>
+                            <td>7-9</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Hip Hop I</td>
+                            <td>4:00-5:00pm</td>
+                            <td>Kenji</td>
+                            <td>8-10</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet III</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Silvia</td>
+                            <td>10-12</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Modern IV</td>
+                            <td>5:00-6:00pm</td>
+                            <td>Kenji</td>
+                            <td>17+</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Hip Hop IV</td>
+                            <td>6:00-7:00pm</td>
+                            <td>James</td>
+                            <td>17+</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Jazz II</td>
+                            <td>6:00-7:00pm</td>
+                            <td>Tamara</td>
+                            <td>13-14</td>
+                            <td>studio A</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="saturday">
+                    <h2>Saturday</h2>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Class</th>
+                            <th>Class Time</th>
+                            <th>Instructor</th>
+                            <th>Ages</th>
+                            <th>Studio</th>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Children's Dance</td>
+                            <td>10:00-11:00am</td>
+                            <td>Emily</td>
+                            <td>2-4</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Yoga Flow</td>
+                            <td>10:00-11:00am</td>
+                            <td>Gabby</td>
+                            <td>16+</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Children's Dance</td>
+                            <td>10:00-11:00am</td>
+                            <td>Emily</td>
+                            <td>2-4</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Contemporary IV</td>
+                            <td>12:00-1:00pm</td>
+                            <td>Gabby</td>
+                            <td>13-14</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet III</td>
+                            <td>12:00-1:00pm</td>
+                            <td>Emily</td>
+                            <td>10-12</td>
+                            <td>studio B</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Ballet IV</td>
+                            <td>1:00-2:00pm</td>
+                            <td>Emily</td>
+                            <td>13-14</td>
+                            <td>studio A</td>
+                        </tr>
+                        <tr>
+                            <td><a href="signin.html">Sign up</a></td>
+                            <td>Modern III</td>
+                            <td>1:00-2:00pm</td>
+                            <td>Amari</td>
+                            <td>14-16</td>
+                            <td>studio B</td>
+                        </tr>
+                    </table>
+                </div>  
+            </div>
+        </div>         
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bottom" id="contact">
+            <div class="map">
+                <img src="static/map.JPG" alt="Location of Etoile Dance Company shown on the map of Portland, Oregon" class="mapimg">
+            </div>
+            <div class="footinfo">
+                <div class="foothead">Contact Us</div>
+                <div class="info">
+                    <div>
+                        <p class="tiny"><ion-icon name="location-outline"></ion-icon> Portland, OR 97221</p>
+                    </div>
+                    <div>
+                        <p class="tiny"><ion-icon name="mail-outline"></ion-icon> etoile.dance@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="tiny"><ion-icon name="call-outline"></ion-icon> (503) 554-0212</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="footsocial">
+                <div class="foothead">Follow Us</div>
+                <div class="social-media">
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-facebook"></ion-icon> Facebook</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-instagram"></ion-icon> Instagram</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-tiktok"></ion-icon> TikTok</p></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="copyright">
+                &copy Marlisa Rebaum 2022
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

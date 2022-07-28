@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Etoile Dance Company</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="enroll.html">Enroll</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a class="signout" href="signout.html">Sign out</a></li>
+            <li><a class="signin" href="signin.html">Sign in /</a></li>
+        </ul>
+    </nav>
+
+    <!-- Signin Form -->
+    <div class="signin-form">
+        <div class="members">
+            <form action="/action_page.php">
+                <h2>Existing Account</h2>
+                <br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" name="email" id="email" placeholder="Your Email">
+                <br>
+                <br>
+                <label for="password">Password:</label><br>
+                <input type="text" name="password" id="password" placeholder="Your password">
+                <br>
+                <br>
+                <button class="signin-btn">Sign In</button>
+                <br>
+                <br>
+                <a href="#" class="reset">Reset your password</a>
+            </form>
+        </div>
+        <div class="new-members">
+            <h2>New Students</h2>
+            <br>
+            <p>If you have never taken classes at Etoile Dance Company before,
+                please start by filling out our enrollment form.</p>
+            <br>
+            <button class="enroll-btn"><a href="enroll.html">Enroll Now</a></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bottom" id="contact">
+            <div class="map">
+                <img src="static/map.JPG" alt="Location of Etoile Dance Company shown on the map of Portland, Oregon" class="mapimg">
+            </div>
+            <div class="footinfo">
+                <div class="foothead">Contact Us</div>
+                <div class="info">
+                    <div>
+                        <p class="tiny"><ion-icon name="location-outline"></ion-icon> Portland, OR 97221</p>
+                    </div>
+                    <div>
+                        <p class="tiny"><ion-icon name="mail-outline"></ion-icon> etoile.dance@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="tiny"><ion-icon name="call-outline"></ion-icon> (503) 554-0212</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="footsocial">
+                <div class="foothead">Follow Us</div>
+                <div class="social-media">
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-facebook"></ion-icon> Facebook</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-instagram"></ion-icon> Instagram</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p class="tiny"><ion-icon name="logo-tiktok"></ion-icon> TikTok</p></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="copyright">
+                &copy Marlisa Rebaum 2022
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

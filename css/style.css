@@ -1,0 +1,771 @@
+/* General styling- all pages */
+
+body {
+    margin: 0;
+    width: 100%;
+  }
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 5px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    margin: 50px;
+}
+
+nav ul {
+    background-color: none;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgba(184, 151, 137, 0.6);
+}
+
+nav a:hover {
+    color: black;
+}
+
+.signout {
+    font-size: 15px;
+    float: right;
+    padding-right: 3%;
+    color: rgb(12, 11, 11);
+}
+
+.signout:hover {
+    color: rgba(184, 151, 137, 0.6);
+}
+
+.signin {
+    font-size: 15px;
+    float: right;
+    padding-right: 10px;
+    color: rgb(12, 11, 11);
+}
+
+.signin:hover {
+    color: rgba(184, 151, 137, 0.6);
+}
+
+
+/* Footer */
+
+.bottom {
+    background-color: rgba(184, 151, 137, 0.2);
+    color: rgb(184, 151, 137);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+    opacity: 0.6;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    padding-top: 1%;
+}
+
+.footsocial {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    padding-top: 1%;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.social-media {
+    margin-top: 5%;
+}
+
+.social-media a {
+    color:  rgb(184, 151, 137);
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: white;
+}
+
+.info {
+    margin-top: 5%;
+}
+
+.tiny {
+    margin: 0px;
+    line-height: 3;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(184, 151, 137, 0.1);
+    color: rgb(184, 151, 137);
+}
+
+
+/* Index.html Hero */
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#hero video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+#hero .caption{
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    color: white;
+}
+
+#hero .caption h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hero hr {
+    background-color: white;
+    height: 2px;
+    border: none;
+}
+
+@media screen and (min-width: 768px)
+{
+    #hero .caption h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+    #hero .caption h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    #hero .caption h1 {
+        font-size: 4rem;
+    }
+}
+
+.home-enroll {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-enroll:hover {
+    color: rgba(184, 151, 137, 0.6);
+    background-color: white;
+}
+
+/* About Page */
+
+.aboutimg {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#about .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.about-header {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.about-header hr{
+    display: flex;
+    background-color: white;
+    height: 2px;
+    border: none;
+}
+
+.about-info {
+    border: 1px solid rgba(184, 151, 137, 0.6);
+    background-color: rgba(184, 151, 137, 0.6);
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+    line-height: 2;
+    font-size: 1.75em;
+    position: relative;
+}
+
+.about-info a{
+    color: rgb(184, 151, 137);
+    text-decoration: none;
+}
+
+.about-info a:hover{
+    color: black;
+}
+
+.about-info a:active{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-btn {
+    padding: 20px;
+    width: 200px;
+    margin-left: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+}
+
+.contact-btn:hover{
+    background: rgba(184, 151, 137, 0.6);
+    border-color: white;
+}
+
+#mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.statements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+}
+
+.mission-statements {
+    width: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2;
+    color: white;
+}
+
+#mission h1 {
+    font-size: 3em;
+    padding-bottom: 2%;
+    color: rgba(184, 151, 137, 0.6);
+}
+
+.mission-box{
+    background-color: rgba(184, 151, 137, 0.6);
+    border: 5px solid rgba(184, 151, 137, 0.4);
+    border-radius: 10% 0 10% 0;
+    width: 300px;
+    height: 300px;
+    padding-top: 20%;
+    font-size: 1em;
+}
+
+.divider {
+    color: rgba(184, 151, 137, 0.6);
+    border: 5px solid rgba(184, 151, 137, 0.6);
+}
+
+#instructors {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 2%;
+}
+
+hr {
+    border: 1px solid rgba(184, 151, 137, 0.6);
+}
+
+.team {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.team h1 {
+    font-size: 3em;
+    padding-bottom: 2%;
+    color: rgba(184, 151, 137, 0.6);
+}
+
+.headshot {
+    width: 250px;
+    outline: 10px solid rgba(184, 151, 137, 0.6);
+    outline-offset: -100px;
+    border: 10px solid transparent;
+    border-width: 150px 50px 50px 150px;
+    margin: -75px 0 0 -75px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.team-member p{
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.quote {
+    font-style: italic;
+    color: rgba(184, 151, 137);
+    font-size: 1.25em;
+}
+
+
+/* Classes Page */
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    padding: 5%;
+}
+
+.box h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-bottom: -1px;
+    text-align: center;
+}
+
+.box h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.box p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(184, 151, 137, 0.2);
+}
+
+.danceimg {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+#classes {
+    background-color: rgba(184, 151, 137, 0.2);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: left;
+    height: 100%;
+    padding-right: 12%;
+    padding-top: 6%;
+}
+
+.weekly-schedule {
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+
+#schedule {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
+    width: 100%;
+}
+
+.date h4 {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    text-align: left;
+    height: 30px;
+    line-height: 2;
+}
+
+#date {
+    height: 30px;
+}
+
+.date {
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 400px;
+    margin-top: 15%;
+    align-items: left;
+    padding-bottom: 30px;
+    line-height: 2;
+}
+
+.filter h4 {
+    background-color: lightgrey;
+    margin-top: 0px;
+}
+
+.filter form {
+    margin-left: 20%;
+}
+
+#type {
+    width: 75%;
+    height: 30px;
+}
+
+#instructor {
+    width: 75%;
+    height: 30px;
+}
+
+#length {
+    width: 75%;
+    height: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 900px;
+    height: 30px;
+}
+
+.weekly-schedule h2 {
+    margin-top: 5%;
+}
+
+th {
+    background-color: lightgray;
+    font-size: 1.25em;
+}
+
+
+/* Enroll Page */
+
+.enroll {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%
+}
+
+.enrollheader {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.enrollheader h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.enroll-form {
+    line-height: 1.5;
+    background-color: rgba(184, 151, 137, 0.3);
+    color: black;
+    width: 50%;
+    padding: 5%;
+    font-size: 1.25em;
+    margin: auto;
+    text-align: center;
+}
+
+.enroll-form input {
+    width: 50%;
+    height: 40px;
+}
+
+.enroll-form select {
+    height: 30px;
+}
+
+#class-interest{
+    width: 15%;
+    margin: 12px;
+}
+
+#experience {
+    width: 25%;
+}
+
+#years-experience {
+    width: 25%;
+}
+
+#comments {
+    height: 150px;
+}
+
+#survery {
+    width: 25%;
+}
+
+.enroll p {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.submit-btn {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid rgb(243, 222, 225);
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 1.25em;
+    background-color: white;
+}
+
+.submit-btn:hover {
+    color: rgb(243, 222, 225);
+    background-color: ;
+}
+
+
+/* Sign-in Page */
+
+.signin-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signin-form h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.members {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin-left: 30%;
+    margin-right: 5%;
+    border: 1px solid black;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.members input{
+    height: 20px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reset {
+    float: right;
+}
+
+.members a:hover {
+    color: black;
+}
+
+.signin-btn {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signin-btn:hover {
+    background: rgba(184, 151, 137, 0.3);
+}
+
+.new-members {
+    float: right;
+    width: 20%;
+    margin-right: 25%;
+}
+
+.new-members p {
+    line-height: 2;
+}
+
+.enroll-btn {
+    display: block;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    background-color: rgba(184, 151, 137, 0.2);
+    border-color: white;
+    text-decoration: none;
+    margin-left: 25%;
+    color: black;
+}
+
+.enroll-btn:hover {
+    background: white;
+    border-color: rgba(184, 151, 137, 0.6);
+}
+
+.enroll-btn:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Sign-out Page */
+
+.signout-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    text-align: center;
+}
+
+.signout-form h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.75em;
+}
+
+.signout-form p {
+    font-style: italic;
+}
+
+.logout-btn {
+    width: 10%;
+    height: 40px;
+    margin-left: 45%;
+    background-color: rgba(184, 151, 137, 0.2);
+    border-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.logout-btn:hover {
+    background: white;
+    border-color:rgba(184, 151, 137, 0.6);
+}
