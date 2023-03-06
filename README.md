@@ -51,7 +51,7 @@ navigation between pages
 
 
 #### Form with Different Types of Input Fields:
-
+![Form](./static/enroll-form.JPG)
 
 
 #### Display of Classes Using CSS Flexbox:
