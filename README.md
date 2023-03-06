@@ -42,6 +42,9 @@ navigation between pages
 
 ## Screenshots
 
+#### Landing Page:
+![Landing Page](./static/landing-page.JPG)
+
 #### First HTML Table I Created:
 ![HTML Table](./static/class-schedule.JPG)
 
