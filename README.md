@@ -45,11 +45,14 @@ navigation between pages
 #### Landing Page:
 ![Landing Page](./static/landing-page.JPG)
 
+
 #### First HTML Table I Created:
 ![HTML Table](./static/class-schedule.JPG)
 
+
 #### Form with Different Types of Input Fields:
 ![Form](./static/enroll-form.JPG)
+
 
 #### Display of Classes Using CSS Flexbox:
 ![Flexbox](./static/classes.JPG)
